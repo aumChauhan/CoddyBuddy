@@ -1,4 +1,4 @@
-![CoddyBuddy@45](https://user-images.githubusercontent.com/83302656/230200879-654bfc1f-db10-40be-9a28-023c9682811d.png)
+![coddybuddy@90x](https://user-images.githubusercontent.com/83302656/230607563-a3efb0a8-406e-4de6-91ae-712ae5216df8.png)
 # CoddyBuddy
 “CoddyBuddy” is an online community-driven question and answer website that is focused primarily on programming-related topics. It allows users to ask questions and receive answers from other community members.
 
