@@ -15,7 +15,6 @@ https://github.com/firebase/firebase-ios-sdk.git
 ```
 3. Checkmarks the following Firebase libraries :
 ```
-FirebaseCore
 FirebaseFirestoreSwift
 FirebaseAuth
 FirebaseFirestore
