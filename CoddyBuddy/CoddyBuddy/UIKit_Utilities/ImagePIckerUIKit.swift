@@ -1,4 +1,4 @@
-// MARK: REFERENCE: https://designcode.io/swiftui-advanced-handbook-imagepicker
+// REFERENCE: https://designcode.io/swiftui-advanced-handbook-imagepicker
 
 import Foundation
 import SwiftUI
