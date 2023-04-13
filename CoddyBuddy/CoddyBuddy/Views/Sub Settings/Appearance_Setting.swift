@@ -18,7 +18,7 @@ struct Appearance_Setting: View {
     @State var isSelected: Bool = false
     
     let iconArrayPack: [String] = [
-        "AppIcon 1",  "AppIcon 2",  "AppIcon 3",  "AppIcon 4","AppIcon 5",
+        "AppIcon 1", "AppIcon 5"
     ]
     
     let ColorThemeArray: [String] = [
