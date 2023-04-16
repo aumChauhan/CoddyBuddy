@@ -90,7 +90,6 @@ class UserAuthnticateViewModel: ObservableObject {
         }
     }
     
-    //MARK: BUG FIXES NEEDED
     func editUserName(fullName: String) {
         let db = Firestore.firestore()
         db.collection("registeredUserData").document(currentUserData?.id ?? "").setData(["fullName":fullName,])
