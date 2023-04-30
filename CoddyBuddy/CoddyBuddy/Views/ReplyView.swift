@@ -193,7 +193,9 @@ struct ReplyView: View {
                     .padding(.horizontal, 15)
                     .padding(.vertical, 5)
                     
-                    Divider()
+                    RoundedRectangle(cornerRadius: 1)
+                        .frame(height: 1)
+                        .foregroundColor(Color(uiColor: .secondarySystemBackground))
                 }
                 
             }
