@@ -221,7 +221,7 @@ struct UserProfileView: View {
                         Image(systemName: "info.circle")
                             .font(.subheadline)
                             .fontWeight(.regular)
-                            .foregroundColor(Color(selectedColor))
+                            .foregroundColor(showProfilePhoto ? .white.opacity(0.0) : Color(selectedColor))
                     })
                 )
             }
