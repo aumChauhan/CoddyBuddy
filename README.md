@@ -4,7 +4,7 @@
 In addition to its question-and-answer format, CoddyBuddy is also known for its reputation system, which rewards users for providing helpful answers and participating in the community.
 # Installing packages to workspace
 
-## Using Swift Package Manager
+## A) Using Swift Package Manager
 
 ### 1. Installing Firebase SDK
 1.  In Xcode, install the Firebase libraries by navigating to **File > Add Packages**
@@ -36,7 +36,7 @@ https://github.com/adamrushy/OpenAISwift
 
 ---
 
-## Using CocoaPods
+## B) Using CocoaPods
 
 ### 1. Installing Firebase SDK, Lottie Animation & OpenAI
 1. Create a `Podfile` if you don't already have one. From the root of your project directory, run the following command :
