@@ -1,9 +1,6 @@
 import Foundation
 import UIKit
-import SwiftUI
-import FirebaseCore
 import FirebaseFirestore
-import FirebaseAuth
 import FirebaseFirestoreSwift
 
 struct RegisteredUserDataModel: Identifiable, Codable {
