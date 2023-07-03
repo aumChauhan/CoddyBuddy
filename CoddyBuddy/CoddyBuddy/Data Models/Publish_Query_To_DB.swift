@@ -1,7 +1,5 @@
 import Foundation
-import FirebaseCore
 import FirebaseFirestore
-import FirebaseAuth
 import FirebaseFirestoreSwift
 
 struct PostedQuery_MetaData: Identifiable, Codable {
