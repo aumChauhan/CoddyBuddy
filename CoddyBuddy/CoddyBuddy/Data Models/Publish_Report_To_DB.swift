@@ -1,7 +1,4 @@
 import Foundation
-import FirebaseCore
-import FirebaseFirestore
-import FirebaseAuth
 import FirebaseFirestoreSwift
 
 struct Report_Post_DataModel: Identifiable, Codable {
