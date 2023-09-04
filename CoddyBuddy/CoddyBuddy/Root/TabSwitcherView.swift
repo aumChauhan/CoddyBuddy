@@ -5,55 +5,45 @@ import SwiftUI
 
 struct TabSwitcherView: View {
     
-    private let tabs: [(tabName: String, tabNumber: Int)] = [
-        ("home", 1),
-        ("explore", 2),
-        ("person2", 3),
-        ("person", 4)
-    ]
-
     @EnvironmentObject var authenticationViewModel: AuthenticationViewModel
-    
     @State private var selectedTab: Int = 1
-    @State var showSideMenu: Bool = false
-
-    init() {
-        UITabBar.appearance().isHidden = true
-    }
     
     var body: some View {
-        ZStack {
-            SideMenuView(showSideMenu: $showSideMenu, switchTab: $selectedTab)
-
-            ZStack(alignment: .bottom) {
-
-                TabView(selection: $selectedTab) {
-                    HomeTabView(showSideMenu: $showSideMenu)
-                        .tag(1)
-                    
-                    ExploreTabView()
-                        .tag(2)
-                    
-                    ChatRoomTabView()
-                        .tag(3)
-                    
-                     UserProfileTabView(user: authenticationViewModel.userDetails, isProfileTab: true)
-                        .tag(4)
+        TabView(selection: $selectedTab) {
+            HomeTabView(showSideMenu: .constant(false))
+                .tag(1)
+                .tabItem {
+                    Image(systemName: "house.fill")
+                    Text("Home")
                 }
-                
-                TabBarView(selectedTab: $selectedTab, tabs: tabs)
-                    .padding(20)
-            }
-            .cornerRadius(showSideMenu ? 35 : 0)
-            .ignoresSafeArea(.keyboard)
-            .rotation3DEffect(
-                Angle(degrees: showSideMenu ? 35 : 0),
-                axis: (x: 0, y: showSideMenu ? -1 : 0, z: 0))
-            .offset(x: showSideMenu ? UIScreen.main.bounds.width/1.5 : 0)
-            .scaleEffect(showSideMenu ? 0.9 : 1)
-            .shadow(color: .black.opacity(0.2), radius: 40)
-            .ignoresSafeArea()
-
+            
+            ExploreTabView()
+                .tag(2)
+                .tabItem {
+                    Image(systemName: "safari")
+                    Text("Home")
+                }
+            
+            ChatRoomTabView()
+                .tag(3)
+                .tabItem {
+                    Image(systemName: "person.3.fill")
+                    Text("Home")
+                }
+            
+            UserProfileTabView(user: authenticationViewModel.userDetails, isProfileTab: true)
+                .tag(4)
+                .tabItem {
+                    Image(systemName: "person")
+                    Text("Home")
+                }
+            
+            UserProfileTabView(user: authenticationViewModel.userDetails, isProfileTab: true)
+                .tag(5)
+                .tabItem {
+                    Image(systemName: "gear")
+                    Text("Home")
+                }
         }
     }
 }
