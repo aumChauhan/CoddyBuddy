@@ -1,5 +1,5 @@
 # CoddyBuddy
-#### “CoddyBuddy” is an online community-driven question and answer website that is focused primarily on programming-related topics. It allows users to ask questions and receive answers from other community members.In addition to its question-and-answer format, CoddyBuddy is also known for its reputation system, which rewards users for providing helpful answers and participating in the community.
+### CoddyBuddy is a cutting-edge developer community app designed to revolutionize collaboration and knowledge-sharing within the coding realm. it combines a robust Q&A system, live chat rooms, and tag-based posting to create a dynamic space for developers. CoddyBuddy aspires to be the epicenter where developers connect, learn, and thrive collectively, fostering a vibrant ecosystem of shared expertise and mutual growth.
 ---
 ## Package Dependencies
 ```
