@@ -45,7 +45,7 @@ CoddyBuddy is a developer community app that offers a Q&A system, live chat room
   
 <summary> <strong> Package Dependencies </strong>  </summary>
 
-- In Xcode, go to File -> Swift Packages -> Add Package Dependency and enter the following repository URL's:
+> In Xcode, go to File -> Swift Packages -> Add Package Dependency and enter the following repository URL's:
 
 ```
 https://github.com/firebase/firebase-ios-sdk.git
